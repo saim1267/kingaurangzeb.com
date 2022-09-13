@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="tb_aurangzebModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Table_aurangzeb">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Mesg" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="Subject" Type="Binary" MaxLength="50" FixedLength="false" />
+    <Property Name="email" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="tb_aurangzebEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Table_aurangzeb" EntityType="Self.Table_aurangzeb" />
+  </EntityContainer>
+</Schema>

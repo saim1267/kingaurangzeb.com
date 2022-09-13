@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="tb_aurangzebModelStoreContainer" CdmEntityContainer="tb_aurangzebEntities1">
+    <EntitySetMapping Name="Table_aurangzeb">
+      <EntityTypeMapping TypeName="tb_aurangzebModel.Table_aurangzeb">
+        <MappingFragment StoreEntitySet="Table_aurangzeb">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Mesg" ColumnName="Mesg" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
